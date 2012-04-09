@@ -55,8 +55,6 @@ static LPSTR W2AHelper(LPSTR lpa, LPCWSTR lpw, int nChars, UINT acp)
 {
     int ret;
 
-    assert(lpw != NULL);
-    assert(lpa != NULL);
     if (lpa == NULL || lpw == NULL) return NULL;
 
     lpa[0] = '\0';
